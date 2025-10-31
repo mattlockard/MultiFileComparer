@@ -27,12 +27,12 @@ It supports `.csv`, `.xls`, `.xlsx`, and `.xlsm` files.
 
 ### Command Line
 python multifilecomparer.py file1.csv file2.xlsm [file3.xlsx ...] [--output results.csv]
-- If no files are provided, all supported files in `./PlaceFilesHere` are processed.
-- Results are saved in the `./Results` folder as `results_<datetime>.csv` by default.
+- If no files are provided, all supported files in `./placefileshere` are processed.
+- Results are saved in the `./results` folder as `results_<datetime>.csv` by default.
 
 ### Example
 python multifilecomparer.py
-Processes all files in `./PlaceFilesHere`.
+Processes all files in `./placefileshere`.
 
 python multifilecomparer.py data1.csv data2.xlsm --output myresults.csv
 Processes specified files and saves results as `myresults.csv` in `./Results`.
@@ -48,9 +48,9 @@ You can use a batch file to automate running and virtual environment setup:
 
 ## Folder Structure
 
-- `FileComparer.py` — Main script
-- `PlaceFilesHere/` — Put your input files here (if not specifying files)
-- `Results/` — Output results are saved here
+- `multifilecomparer.py` — Main script
+- `placefileshere/` — Put your input files here (if not specifying files)
+- `results/` — Output results are saved here
 
 ## Notes
 
