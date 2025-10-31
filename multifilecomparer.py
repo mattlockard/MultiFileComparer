@@ -173,7 +173,7 @@ Options:
     --help                Show this help message
 
 Behavior:
-    - If no files are provided, all supported files in ./PlaceFilesHere are processed.
+    - If no files are provided, all supported files in ./placefileshere are processed.
     - Results are saved in ./Results.
     - Skips unreadable files and marks them as "File error" in results.
     - Excludes columns with only blank values.
@@ -188,8 +188,8 @@ Happy Halloween! 🦇
         sys.exit(0)
 
     
-    default_dir = "./PlaceFilesHere"
-    results_dir = "./Results"
+    default_dir = "./placefileshere"
+    results_dir = "./results"
 
     mode = "exact"
     if "--mode" in sys.argv:
